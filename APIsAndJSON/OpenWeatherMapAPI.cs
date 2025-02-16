@@ -14,7 +14,7 @@ namespace APIsAndJSON
             var client = new HttpClient();
             // Makes request for the internet
 
-            var key = "ee1e8579e7a235a01d6a370af6aad04f";
+            var key = "";
             //var city = "Birmingham";
 
 
