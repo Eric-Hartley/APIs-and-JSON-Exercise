@@ -7,12 +7,14 @@ namespace APIsAndJSON
         static void Main(string[] args)
         {
 
-            for (int i = 1; i < 6; i++)
-            {
-                Console.WriteLine($"Conversation {i}:");
-                RonVSKanyeAPI.KanyeQuote();
-                RonVSKanyeAPI.RonQuote();
-            }
+            //for (int i = 1; i < 6; i++)
+            //{
+            //    Console.WriteLine($"Conversation {i}:");
+            //    RonVSKanyeAPI.KanyeQuote();
+            //    RonVSKanyeAPI.RonQuote();
+            //}
+
+            OpenWeatherMapAPI.GetWeatherForecast();
         }
     }
 }
